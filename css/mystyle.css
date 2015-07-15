@@ -1,0 +1,124 @@
+#siteTitle{ color: green; padding-bottom: 16px;}
+
+nav{ margin-bottom:20px;}
+
+a.logintool{ color:black;}
+
+nav ul{margin-top: 8%; margin-left: -12%; text-align: center; list-style-type: none; background-color: #009bdb; border-top: 4px groove #ccc; border-right: 4px groove #ccc; border-bottom: 4px groove #ccc; }
+ 
+#search{display: inline-block; list-style: none; position: absolute; top: 5%; right: 6%;  width: 43%;}
+
+.search-submit{ padding: 1%; border-radius: 3px; color: white; position: absolute; top: 1%; right: -11%; background-color: #009bdb; border: 4px groove #ccc;}
+
+nav ul li{ text-align: center; display: inline-block; padding: 10px 20px;}
+
+nav ul li a{ color:white;}
+
+nav ul li a:hover{ background:rgb(59,89,152,0.7);}
+
+nav ul li.active, nav ul li:hover{ background:lightblue;}
+
+nav ul lia.inactive { border:0; background:0;}
+
+table, td, th { border: 1px solid green;}
+
+th { background-color: green; color: white;}
+
+td, th { padding: 10px;}
+
+body{ text-align: center; background-image:url("../img/bone-pattern.jpg");}
+
+button{ margin: 16px;}
+
+.logintool{ float:right; margin-top: -70px;}
+
+.panel{  border: 4px groove #ccc; -webkit-box-shadow: 10px 10px 5px 0px rgba(0,155,219,0.43); -moz-box-shadow: 10px 10px 5px 0px rgba(0,155,219,0.43); box-shadow: 10px 10px 5px 0px rgba(0,155,219,0.43);
+}
+
+.panel img{ border: 4px groove #ccc;   border-radius: 5px; padding:2px; }
+
+.avatar{position:absolute; top: 3%; right: 4%;}
+
+#UserAvatar{border: 4px groove #ccc;   border-radius: 5px; -webkit-box-shadow: -10px 10px 5px 0px rgba(0,155,219,0.45); -moz-box-shadow: -10px 10px 5px 0px rgba(0,155,219,0.45); box-shadow: -10px 10px 5px 0px rgba(0,155,219,0.45);}
+
+#UserAvatar:hover{opacity: 0.7;}
+
+.panel{text-align: left;}
+
+.deletebutton{ position: absolute; bottom: 5px; right: 20px;} 
+
+div.img { margin: 5px; padding: 5px; height: auto; width: auto; float: left; text-align: center;}
+
+div.img img { display: inline; margin: 5px;}
+
+div.img a:hover img { border:4px groove black;}
+
+.LineHeight{  line-height: 0.6;}
+
+.height{height:337px; text-align: center;}
+
+.green{border: 4px groove #14D930; background-color:#32F00A; color: black; margin-right:6px;}
+
+.green.active, .green:hover{background-color:#17F877;}
+img.hover:hover{opacity: 0.7;}
+
+.yellow{border: 4px groove #ffed2a; background-color:yellow; color: black; margin-right:6px;}
+
+.yellow.active, .yellow:hover{background-color:#E0D934;}
+
+.orange{border: 4px groove #ff733b; background-color:orange;color: black; margin-right:6px;}
+
+.orange.active, .orange:hover{background-color:#ff733b;}
+
+.red{border: 4px groove #e82017;background-color:red; margin-right:6px;}
+
+.red.active, .red:hover{background-color:#e82017; color:black;}
+
+footer img{width:50%;}
+
+#tfnewsearch{ position: absolute; right: 8%; padding:20px;}
+
+	.tftextinput2{
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		color:#666;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.tfbutton2 {
+		position: absolute;
+		right: -6%;
+		top: 26%;
+		margin: 0;
+		padding: 5px 7px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		font-weight:bold;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton2:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton2::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
