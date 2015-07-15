@@ -75,7 +75,7 @@ function add_post($con)
 					while($row=mysqli_fetch_assoc($result2)){
 						$PetID=$row['PetID'];
 						$AvatarName=get_Pet_avatar($con, $PetID);
-						echo '<div class="img"><a href="#"><img width="125" src="uploads/'.$AvatarName.'"></a></div>';
+						echo '<div class="img"><a href="#"><img width="125" alt="avatar" src="uploads/'.$AvatarName.'"></a></div>';
 					}//ends result2 while
 					
 					echo '</div></div>';
@@ -152,7 +152,7 @@ function add_post($con)
 					echo '<p>Sex: '.$row["Sex"].'</p>';
 					echo '<p>Doctor: '.$row["Doctor"].'</p>';
 					$AvatarName=get_Pet_avatar($con, $row["PetID"]);
-					echo '<p style="text-align:center;" class="avatar"><a href="#" data-featherlight="uploads/'.$AvatarName.'"><img width="227" src="uploads/'.$AvatarName.'"></a></p>';
+					echo '<p style="text-align:center;" class="avatar"><a href="#" data-featherlight="uploads/'.$AvatarName.'"><img width="227" alt="avatar" src="uploads/'.$AvatarName.'"></a></p>';
 					echo '</div></div>';
 					}
 

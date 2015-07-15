@@ -38,7 +38,7 @@ include "functions.php";?>
 	?>
 	
 	<nav>
-		<div class="large-3 columns"><a href="index.php"><img class="hover" style="margin-left: 6px; margin-bottom: 6%;" src="img/sitelogo.png"></a></div>
+		<div class="large-3 columns"><a href="index.php"><img class="hover" style="margin-left: 6px; margin-bottom: 6%;" alt="logo" src="img/sitelogo.png"></a></div>
 		<div class="large-9 columns"><?php get_nav_li();?></div>
 	</nav><!--ends nav-->
 	<div class="row">

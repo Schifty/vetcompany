@@ -1,12 +1,10 @@
-</div><!--ends 12 columns-->
-</div><!--ends row-->
 
 	
 	<footer>
-		<div class="large-3 columns"><img style="margin-top: 28px;" src="img/Best_Vet_in_town_seal.png"></div>
-		<div class="large-3 columns"><img src="img/emergency.png"></div>
-		<div class="large-3 columns"><img style="padding: 6%;" src="img/black-cross.png"></div>
-		<div class="large-3 columns"><img style="padding: 7%;" src="img/mobile.png"></div>
+		<div class="large-3 columns"><img style="margin-top: 28px;" alt="award" src="img/Best_Vet_in_town_seal.png"></div>
+		<div class="large-3 columns"><img alt="award" src="img/emergency.png"></div>
+		<div class="large-3 columns"><img style="padding: 6%;" alt="award" src="img/black-cross.png"></div>
+		<div class="large-3 columns"><img style="padding: 7%;" alt="award" src="img/mobile.png"></div>
 	</footer><!--close the footer-->					
 
 		

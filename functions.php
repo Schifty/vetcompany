@@ -68,7 +68,7 @@ include "HelpFunctions.php";
 					}
 					
 					for ($i = 1; $i <= $sil; $i++) { 
-							$my_pet_images .='<div class="large-3 columns"><a href="addpet.php?OwnerID='.$OwnerID.'"><img class="hover" src="uploads/sil.png"></a></div>';
+							$my_pet_images .='<div class="large-3 columns"><a href="addpet.php?OwnerID='.$OwnerID.'"><img class="hover" alt="addpet" src="uploads/sil.png"></a></div>';
 					}
 					
 					//echo images
@@ -114,7 +114,7 @@ include "HelpFunctions.php";
 					echo '<p class="LineHeight">Sex: '.$row["Sex"].'</p>';
 					echo '<p class="LineHeight">Doctor: '.$row["Doctor"].'</p>';
 					$AvatarName=get_pet_avatar($con, $row["PetID"]);
-					echo '<p style="text-align:center;" class="avatar LineHeight"><a  href="#" data-featherlight="uploads/'.$AvatarName.'"><img width="227" src="uploads/'.$AvatarName.'"></a></p>';
+					echo '<p style="text-align:center;" class="avatar LineHeight"><a  href="#" data-featherlight="uploads/'.$AvatarName.'"><img width="227" alt="avatar" src="uploads/'.$AvatarName.'"></a></p>';
 					echo '</div></div>';
 					}
 
@@ -148,7 +148,7 @@ include "HelpFunctions.php";
 					echo '<p>Sex: '.$row["Sex"].'</p>';
 					echo '<p>Doctor: '.$row["Doctor"].'</p>';
 					$AvatarName=get_pet_avatar($con, $row["PetID"]);
-					echo '<p style="text-align:center;" class="avatar"><a href="#" data-featherlight="uploads/'.$AvatarName.'"><img class="hover" width="150" height="150" src="uploads/'.$AvatarName.'"></a></p><br>';
+					echo '<p style="text-align:center;" class="avatar"><a href="#" data-featherlight="uploads/'.$AvatarName.'"><img class="hover" width="150" height="150" alt="avatar" src="uploads/'.$AvatarName.'"></a></p><br>';
 					echo '<a href="updatepet.php?petid='.$PetID.'" class="small orange button radius">Edit Pet Info</a>';
 					echo '<a href="updatepetphoto.php?petid='.$PetID.'" class="small yellow button radius">Change Photo</a>';
 					echo '<a href="addvisit.php?petid='.$PetID.'" class="small green button radius">Enter Visit Procedure</a>';
@@ -196,7 +196,7 @@ include "HelpFunctions.php";
 
 					
 					<?php
-					echo '<a href="deleteprocedure.php?procedureid='.$ProcedureID.'" class="button radius red " Onclick="return ConfirmDelete();"  alt="Delete">Delete Procedure</a>';
+					echo '<a href="deleteprocedure.php?procedureid='.$ProcedureID.'" class="button radius red " Onclick="return ConfirmDelete();">Delete Procedure</a>';
 					echo '</div></div>';
 					}
 

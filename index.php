@@ -13,7 +13,7 @@ include "header.php";
 		
 			//gets the Dr's avatar
 			$AvatarName=get_user_avatar($con);
-			echo '<p style="text-align:center;" id="UserAvatar"><a href="#" data-featherlight="uploads/'.$AvatarName.'"><img src="uploads/'.$AvatarName.'"></a></p>';
+			echo '<p style="text-align:center;" id="UserAvatar"><a href="#" data-featherlight="uploads/'.$AvatarName.'"><img alt="avatar" src="uploads/'.$AvatarName.'"></a></p>';
 			//welcome the user after login
 			echo '<p style="text-align:center;" id="WelcomeName">Welcome '.$_SESSION["username"].'</p>';
 
